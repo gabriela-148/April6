@@ -15,7 +15,6 @@
 		1E6F70FD2B72C847001A0630 /* SeniorProjectTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F70FC2B72C847001A0630 /* SeniorProjectTestUITests.swift */; };
 		1E6F70FF2B72C847001A0630 /* SeniorProjectTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F70FE2B72C847001A0630 /* SeniorProjectTestUITestsLaunchTests.swift */; };
 		1E868A692B8812090064C139 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 1E868A682B8812090064C139 /* SQLite */; };
-		1E868A6B2B881D400064C139 /* backup.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1E868A6A2B881D3F0064C139 /* backup.sql */; };
 		1E868A6D2B8A539F0064C139 /* SQL_DB_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E868A6C2B8A539F0064C139 /* SQL_DB_Test.swift */; };
 		1E868A712B8A7C1E0064C139 /* mydatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1E868A702B8A7C1E0064C139 /* mydatabase.sql */; };
 		1E868A732B8A7E8C0064C139 /* mydatabase.db in Resources */ = {isa = PBXBuildFile; fileRef = 1E868A722B8A7E8C0064C139 /* mydatabase.db */; };
@@ -68,7 +67,6 @@
 		1E6F70F82B72C847001A0630 /* SeniorProjectTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorProjectTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6F70FC2B72C847001A0630 /* SeniorProjectTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorProjectTestUITests.swift; sourceTree = "<group>"; };
 		1E6F70FE2B72C847001A0630 /* SeniorProjectTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorProjectTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1E868A6A2B881D3F0064C139 /* backup.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = backup.sql; path = ../../../Desktop/backup.sql; sourceTree = "<group>"; };
 		1E868A6C2B8A539F0064C139 /* SQL_DB_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQL_DB_Test.swift; sourceTree = "<group>"; };
 		1E868A702B8A7C1E0064C139 /* mydatabase.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mydatabase.sql; sourceTree = "<group>"; };
 		1E868A722B8A7E8C0064C139 /* mydatabase.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydatabase.db; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 		1E6F70E02B72C83E001A0630 /* SeniorProjectTest */ = {
 			isa = PBXGroup;
 			children = (
-				1E868A6A2B881D3F0064C139 /* backup.sql */,
 				1E6F70E12B72C83E001A0630 /* SeniorProjectTestApp.swift */,
 				1E6F70E32B72C83E001A0630 /* ContentView.swift */,
 				1E868AB72B8A93840064C139 /* SignInScreen.swift */,
@@ -314,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6F70E92B72C846001A0630 /* Preview Assets.xcassets in Resources */,
-				1E868A6B2B881D400064C139 /* backup.sql in Resources */,
 				1E868A732B8A7E8C0064C139 /* mydatabase.db in Resources */,
 				1E6F70E62B72C846001A0630 /* Assets.xcassets in Resources */,
 				1E868A712B8A7C1E0064C139 /* mydatabase.sql in Resources */,
